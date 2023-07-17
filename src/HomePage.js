@@ -88,7 +88,7 @@ const HomePage = () => {
   return (
     <StyledHomePage>
       <ReactPlayer
-        url={process.env.PUBLIC_URL + '/fire.mov'}
+        url={process.env.PUBLIC_URL + '/website_vid.mp4'}
         playing={true}
         loop={true}
         muted={true}
